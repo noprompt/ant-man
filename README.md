@@ -1,39 +1,23 @@
-# ant-man
+# Ant-Man
 
-FIXME: Write a one-line description of your library/project.
+Simple wrapper for Ant Design React components.
 
-## Overview
+## Usage
 
-FIXME: Write a paragraph about the library/project and highlight its goals.
+[![Clojars Project](https://img.shields.io/clojars/v/com.hypaer/ant-man.svg)](https://clojars.org/com.hypaer/ant-man)
 
-## Setup
+Include Ant-Man in your `project.clj`
 
-To get an interactive development environment run:
+```clojure
+(:require [ant-man.core :as ant-man)
 
-    lein figwheel
-
-and open your browser at [localhost:3449](http://localhost:3449/).
-This will auto compile and send all changes to the browser without the
-need to reload. After the compilation process is complete, you will
-get a Browser Connected REPL. An easy way to try it is:
-
-    (js/alert "Am I connected?")
-
-and you should see an alert in the browser window.
-
-To clean all compiled files:
-
-    lein clean
-
-To create a production build run:
-
-    lein do clean, cljsbuild once min
-
-And open your browser in `resources/public/index.html`. You will not
-get live reloading, nor a REPL. 
+[ant-man/input {:value @your-reagent-atom
+                :id "your-id"
+                :placeholder "your-placeholder"}]
+```
 
 ## License
 
-Copyright © 2014 FIXME
+Copyright © 2019 Hypaer
 
 Distributed under the Eclipse Public License either version 1.0 or (at your option) any later version.
