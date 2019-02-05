@@ -1,6 +1,6 @@
-(defproject ant-man "0.1.0-SNAPSHOT"
-  :description "FIXME: write this!"
-  :url "http://example.com/FIXME"
+(defproject com.hypaer/ant-man "0.1.0"
+  :description "Simple wrapper for Ant Design"
+  :url "https://github.com/hypaer/ant-man.git"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :min-lein-qversion "2.7.3"
@@ -25,7 +25,6 @@
                            :main ant-man.core
                            :optimizations :advanced
                            :pretty-print false}}]}
-
   :profiles {:dev {:source-paths ["src"]
                    :clean-targets ^{:protect false} ["resources/public/js/compiled"
                                                      :target-path]}})
