@@ -1,4 +1,5 @@
 # Ant-Man
+[![Clojars Project](https://img.shields.io/clojars/v/com.hypaer/ant-man.svg)](https://clojars.org/com.hypaer/ant-man)
 > One question, is it too late to change the name?
 >
 > -Scott Lang
@@ -10,8 +11,6 @@ Simple wrapper for Ant Design React components.
 ## Usage
 
 Include Ant-Man in your `project.clj`
-
-[![Clojars Project](https://img.shields.io/clojars/v/com.hypaer/ant-man.svg)](https://clojars.org/com.hypaer/ant-man)
 
 Include Ant Design CSS and JavaScript CDNs
 
