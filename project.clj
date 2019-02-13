@@ -1,4 +1,4 @@
-(defproject com.hypaer/ant-man "0.1.1"
+(defproject com.hypaer/ant-man "0.1.2"
   :description "Simple wrapper for Ant Design React components"
   :url "https://github.com/hypaer/ant-man.git"
   :license {:name "Eclipse Public License"
