@@ -51,6 +51,7 @@
 (def form-item (reagent/adapt-react-class js/antd.Form.Item))
 (def input (reagent/adapt-react-class js/antd.Input))
 (def input-search (reagent/adapt-react-class js/antd.Input.Search))
+(def input-textarea (reagent/adapt-react-class js/antd.Input.TextArea))
 (def input-group (reagent/adapt-react-class js/antd.Input.Group))
 (def input-number (reagent/adapt-react-class js/antd.InputNumber))
 (def mention (reagent/adapt-react-class js/antd.Mention))
