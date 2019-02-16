@@ -40,8 +40,8 @@
 ;; ;;
 ;; ;; Data Entry
 ;; ;;
-;; (def autocomplete (reagent/adapt-react-class js/antd.AutoComplete))
-;; (def autocomplete.option (reagent/adapt-react-class js/antd.AutoComplete.Option))
+(def autocomplete (reagent/adapt-react-class js/antd.AutoComplete))
+(def autocomplete-option (reagent/adapt-react-class js/antd.AutoComplete.Option))
 (def cascader (reagent/adapt-react-class js/antd.Cascader))
 (def checkbox (reagent/adapt-react-class js/antd.Checkbox))
 (def datepicker (reagent/adapt-react-class js/antd.DatePicker))
