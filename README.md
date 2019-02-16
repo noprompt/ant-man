@@ -6,7 +6,9 @@
 
 ## Overview
 
-Simple wrapper for Ant Design React components.
+Simple wrapper for [Ant Design](https://ant.design/) React components.
+
+Quick link to Ant Design introduction: https://ant.design/docs/react/introduce
 
 ## Usage
 
