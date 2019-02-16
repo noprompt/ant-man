@@ -8,6 +8,8 @@
 ;;
 ;; General
 ;;
+(def anchor (reagent/adapt-react-class js/antd.Anchor))
+(def link (reagent/adapt-react-class js/antd.Anchor.Link))
 (def button (reagent/adapt-react-class js/antd.Button))
 (def button-group (reagent/adapt-react-class js/antd.Button.Group))
 (def icon (reagent/adapt-react-class js/antd.Icon))
